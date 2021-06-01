@@ -15,6 +15,7 @@
                 />
             </ul>
         </div>
+        <a href="#" class="New comment">Add comment</a>
     </li>
 </template>
 

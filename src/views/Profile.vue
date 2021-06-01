@@ -14,6 +14,8 @@
                 <div class="form-group">
                     <p> Email: {{ getUserData($route.params.id).email }} </p>
                 </div>
+
+                <a href="/" class="link">Back</a>
   </div>
 </template>
 

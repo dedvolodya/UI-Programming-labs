@@ -7,6 +7,7 @@
             v-bind:post="post"
             v-bind:comments="getPostCommnets(post)"
         />
+        <a href="#" class="link">New Post</a>
     </ul>
   </div>
 </template>
