@@ -35,10 +35,17 @@ export default ({
             }
         }
     },
+    props: {
+        callTest: {
+            type: Function
+        }
+    },
     methods: {
         handleSubmit () {
-            console.log("login function stub")    
+            console.log("login function stub")  
+            this.callTest('stub')
         }
-    }
+    },
+
 })
 </script>
