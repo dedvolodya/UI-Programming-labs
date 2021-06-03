@@ -13,7 +13,7 @@ describe('About.vue', () => {
 
   it('renders the correct markup', () => {
     expect(wrapper.html()).toContain('<div><a href=\"/\" class=\"link\">Back</a>\n'
-    + '  <h1>My bolog web-application using Vue JS</h1>\n'
+    + '  <h1>My blog web-application using Vue JS</h1>\n'
     + '  <p>This application was made for stydying</p>\n'
     + '</div>')
   })
